@@ -1,0 +1,14 @@
+{
+    "name": "oms.save.order",
+    "eventId": "123456",
+    "data": {
+        "header": {
+            "transactionId": "1",
+            "applicationId": "2",
+            "hostname": "3",
+            "user": "4",
+            "transactionDate": 12355
+        },
+        "data": 6
+    }
+}

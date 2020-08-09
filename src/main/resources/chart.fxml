@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.java_class_generator.ChartController">
+    <children>
+        <Pane prefHeight="400.0" prefWidth="129.0" style="-fx-background-color: #48A5EA;"/>
+        <TextField layoutX="366.0" layoutY="83.0" prefHeight="26.0" prefWidth="292.0" promptText="name..."
+                   fx:id="txtRootNameClass"
+        />
+        <Button layoutX="529.0" layoutY="337.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="129.0"
+                style="-fx-background-color: #48A5EA;" text="Generate" textFill="WHITE"
+                onAction="#generateClasses"
+        />
+        <Label layoutX="172.0" layoutY="83.0" prefHeight="26.0" prefWidth="153.0" text="Root Class Name:"/>
+        <Label layoutX="172.0" layoutY="28.0" prefHeight="30.0" prefWidth="254.0" text="JAVA CLASS GENERATOR"
+               textFill="#48a5ea">
+            <font>
+                <Font name="System Bold" size="18.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
